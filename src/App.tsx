@@ -1,12 +1,7 @@
-//import { useState } from 'react'
-//import reactLogo from './assets/react.svg'
-//import viteLogo from '/vite.svg'
+import { Link } from 'react-router';
 import './App.css'
-// import './Contributions.tsx'
 
 export default function App() {
-//  const [count, setCount] = useState(0)
-
   return (
     <div>
       <br></br>
@@ -47,7 +42,7 @@ export default function App() {
 
       <div className="flex">
         <div className="basis-3/40"></div>
-        <a className="underline" href="./contributions.html">Open source contributions</a>
+        <Link className="underline" to="/contributions">Open source contributions</Link>
       </div>
 
     </div>
