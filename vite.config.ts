@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: 'https://benwu25.github.io/',
+  base: '/',
 })
