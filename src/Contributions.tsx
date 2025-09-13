@@ -1,3 +1,9 @@
+/*import './App.css'
+
+export default function Contributions() {
+
+  return (
+<div>
 <b class="font-serif">LLVM</b>
 
 <ul>
@@ -7,7 +13,7 @@
   </li>
 
   <li>
-    <a href="https://github.com/llvm/llvm-project/pull/157782">[InstCombine] Fold min(X+1, Y) - min(X, Y) --> zext X &lt; Y</a>
+    <a href="https://github.com/llvm/llvm-project/pull/157782">[InstCombine] Fold min(X+1, Y) - min(X, Y) --> zext X < Y</a>
     <ul>
       <li>
         <a href="https://github.com/llvm/llvm-project/issues/157524">Resolved issue 157524</a>
@@ -43,3 +49,7 @@
   </li>
 
 </ul>
+
+</div>
+  )
+}*/
