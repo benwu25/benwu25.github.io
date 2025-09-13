@@ -8,9 +8,8 @@ export default function Contributions() {
       <br></br>
       <br></br>
 
-      <div className="flex">
-        <div className="basis-1/30"></div>
-        <b className="text-[20px]">LLVM</b>
+      <div>
+        <b className="text-[20px] ml-21">LLVM</b>
       </div>
 
       <ul className="list-disc list-inside ml-30">
@@ -31,9 +30,9 @@ export default function Contributions() {
       </ul>
 
       <br></br>
-      <div className="flex">
-        <div className="basis-1/30"></div>
-        <b className="text-[20px]">GCC</b>
+
+      <div>
+        <b className="text-[20px] ml-21">GCC</b>
       </div>
 
       <ul className="list-disc list-inside ml-30">
