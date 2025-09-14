@@ -2,7 +2,6 @@ import { isMobile } from 'react-device-detect'
 import './App.css'
 
 export default function Contributions() {
-
   if (isMobile) {
     return (
       <div>
