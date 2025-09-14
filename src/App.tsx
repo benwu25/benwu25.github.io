@@ -49,6 +49,11 @@ export default function App() {
         <Link className="underline ml-[7.5%]" to="/contributions">Open source contributions</Link>
       </div>
 
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+
     </div>
   )
 }
