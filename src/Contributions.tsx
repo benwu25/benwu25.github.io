@@ -14,8 +14,8 @@ export default function Contributions() {
           <b className="text-[20px]">LLVM</b>
         </div>
 
-        <div className="flex justify-center flex-col items-center">
-          <ul className="list-disc list-outside ml-[4.8%]">
+        <div className="flex justify-center flex-col items-center text-center">
+          <ul className="list-disc list-outside ml-[4.8%] text-center">
 
             <li>
               <a className="underline" href="https://github.com/llvm/llvm-project/pull/156962">[clang] Fix typo in comment</a>
