@@ -12,7 +12,7 @@ export default function Contributions() {
         <b className="text-[20px] ml-[3.365%]">LLVM</b>
       </div>
 
-      <ul className="list-disc list-outside">
+      <ul className="list-disc list-inside">
 
         <li className="ml-[4.8%]">
           <a className="underline" href="https://github.com/llvm/llvm-project/pull/156962">[clang] Fix typo in comment</a>
