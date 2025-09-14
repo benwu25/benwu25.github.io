@@ -23,13 +23,13 @@ export default function Contributions() {
 
             <li>
               <a className="underline" href="https://github.com/llvm/llvm-project/pull/157782">[InstCombine] Fold min(X+1, Y) - min(X, Y) --&gt; zext X &lt; Y</a>
-              <ul className="list-disc ml-6">
-                <li>
-                  <a className="underline" href="https://github.com/llvm/llvm-project/issues/157524">Resolved issue 157524</a>
-                </li>
-              </ul>
             </li>
 
+            <ul className="list-disc ml-6">
+              <li>
+                <a className="underline" href="https://github.com/llvm/llvm-project/issues/157524">Resolved issue 157524</a>
+              </li>
+            </ul>
           </ul>
         </div>
 
@@ -52,13 +52,13 @@ export default function Contributions() {
   
             <li className="">
               <a className="underline" href="https://gcc.gnu.org/git/?p=gcc.git;a=commitdiff;h=54bf72ebfe983c611673bcc4368b5834773fcc7d">c++: Fix ICE on mangling invalid compound requirement</a>
-              <ul className="list-disc ml-6">
-                <li>
-                  <a className="underline" href="https://gcc.gnu.org/bugzilla/show_bug.cgi?id=120618">Resolved bug 120618</a>
-                </li>
-              </ul>
             </li>
-  
+
+            <ul className="list-disc ml-6">
+              <li>
+                <a className="underline" href="https://gcc.gnu.org/bugzilla/show_bug.cgi?id=120618">Resolved bug 120618</a>
+              </li>
+            </ul>
           </ul>
         </div>
 
@@ -68,8 +68,14 @@ export default function Contributions() {
 
         <br></br>
 
-        <ul className="list-disc ml-[50%]">
+        <ul className="list-disc ml-[4.8%]">
           <li><a className="underline" href="https://google.com">"Is it stuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuck?</a></li>
+
+          <ul className="list-disc ml-6">
+            <li>
+              <a className="underline" href="https://gcc.gnu.org/bugzilla/show_bug.cgi?id=120618">Resolved bug 120618</a>
+            </li>
+          </ul>
         </ul>
 
 {/**/}
@@ -101,13 +107,13 @@ export default function Contributions() {
 
         <li>
           <a className="underline" href="https://github.com/llvm/llvm-project/pull/157782">[InstCombine] Fold min(X+1, Y) - min(X, Y) --&gt; zext X &lt; Y</a>
-          <ul className="list-disc ml-6">
-            <li>
-              <a className="underline" href="https://github.com/llvm/llvm-project/issues/157524">Resolved issue 157524</a>
-            </li>
-          </ul>
         </li>
 
+        <ul className="list-disc ml-6">
+          <li>
+            <a className="underline" href="https://github.com/llvm/llvm-project/issues/157524">Resolved issue 157524</a>
+          </li>
+        </ul>
       </ul>
 
       <br></br>
@@ -128,12 +134,13 @@ export default function Contributions() {
 
         <li className="">
           <a className="underline" href="https://gcc.gnu.org/git/?p=gcc.git;a=commitdiff;h=54bf72ebfe983c611673bcc4368b5834773fcc7d">c++: Fix ICE on mangling invalid compound requirement</a>
-          <ul className="list-disc ml-6">
-            <li>
-              <a className="underline" href="https://gcc.gnu.org/bugzilla/show_bug.cgi?id=120618">Resolved bug 120618</a>
-            </li>
-          </ul>
         </li>
+
+        <ul className="list-disc ml-6">
+          <li>
+            <a className="underline" href="https://gcc.gnu.org/bugzilla/show_bug.cgi?id=120618">Resolved bug 120618</a>
+          </li>
+        </ul>
 
       </ul>
 
