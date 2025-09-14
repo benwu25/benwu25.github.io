@@ -10,11 +10,10 @@ export default function Contributions() {
         <br></br>
         <br></br>
 
-        <div className="flex justify-center mr-[18%]">
-          <b className="text-[20px]">LLVM</b>
+        <div>
+          <b className="text-[20px] ml-[16.565%]">LLVM</b>
         </div>
 
-        <div className="flex justify-center flex-col items-center">
           <ul className="list-disc ml-[20%]">
 
             <li>
@@ -31,15 +30,13 @@ export default function Contributions() {
               </li>
             </ul>
           </ul>
-        </div>
 
         <br></br>
 
-        <div className="flex justify-center mr-[18%]">
-          <b className="text-[20px]">GCC</b>
+        <div>
+          <b className="text-[20px] ml-[16.565%]">GCC</b>
         </div>
 
-        <div className="flex justify-center">
           <ul className="list-disc list-outside ml-[20%]">
   
             <li>
@@ -60,7 +57,6 @@ export default function Contributions() {
               </li>
             </ul>
           </ul>
-        </div>
 
         <br></br>
         <br></br>
