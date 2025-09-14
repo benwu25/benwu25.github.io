@@ -69,7 +69,7 @@ export default function Contributions() {
         <br></br>
 
         <ul className="list-disc ml-[50%]">
-          <li>Is it stuck?</li>
+          <li>Is it stuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuck?</li>
         </ul>
 
 {/**/}
