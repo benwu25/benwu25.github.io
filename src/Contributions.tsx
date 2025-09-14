@@ -15,13 +15,13 @@ export default function Contributions() {
         </div>
 
         <div className="flex justify-center flex-col items-center">
-          <ul className="list-disc list-outside ml-[4.8%] inline-block">
+          <ul className="list-disc ml-[4.8%]">
 
-            <li className="text-left">
+            <li>
               <a className="underline" href="https://github.com/llvm/llvm-project/pull/156962">[clang] Fix typo in comment</a>
             </li>
 
-            <li className="text-left">
+            <li>
               <a className="underline" href="https://github.com/llvm/llvm-project/pull/157782">[InstCombine] Fold min(X+1, Y) - min(X, Y) --&gt; zext X &lt; Y</a>
               <ul className="list-disc ml-6">
                 <li>
@@ -81,7 +81,7 @@ export default function Contributions() {
         <b className="text-[20px] ml-[3.365%]">LLVM</b>
       </div>
 
-      <ul className="list-disc list-outside ml-[4.8%]">
+      <ul className="list-disc ml-[4.8%]">
 
         <li>
           <a className="underline" href="https://github.com/llvm/llvm-project/pull/156962">[clang] Fix typo in comment</a>
@@ -104,7 +104,7 @@ export default function Contributions() {
         <b className="text-[20px] ml-[3.365%]">GCC</b>
       </div>
 
-      <ul className="list-disc list-outside ml-[4.8%]">
+      <ul className="list-disc ml-[4.8%]">
 
         <li>
           <a className="underline" href="https://gcc.gnu.org/git/?p=gcc.git;a=commitdiff;h=356250630abd876ae592bc3d2b4cc171bc834b79">middle end: Fix typo in gimple.h</a>
