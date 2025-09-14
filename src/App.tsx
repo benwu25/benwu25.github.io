@@ -36,15 +36,16 @@ export default function App() {
 
       <div>
         <div className="text-3x1 ml-[7.5%]">Hi, I'm Ben. I am an undergraduate student at the University of Washington</div>
-        <div className="text-3x1 ml-[7.5%]">Seattle studying computer engineering in the Paul G. Allen School.</div>
+        <div className="text-3x1 ml-[7.5%]">Seattle campus studying computer engineering in the Paul G. Allen School.</div>
       </div>
 
       <br></br>
 
       <div>
         <div className="text-3x1 ml-[7.5%]">Outside of school, I enjoy building, reading, using, and contributing to</div>
-        <div className="text-3x1 ml-[7.5%]">"open source software. LLVM and GCC are the main projects I spend time</div>
-        <div className="text-3x1 ml-[7.5%]">working with.</div>
+        <div className="text-3x1 ml-[7.5%]">open source software. I am particularly interested in compiler toolchains,</div>
+        <div className="text-3x1 ml-[7.5%]">and I am spending a lot of my time learning and hacking inside of the LLVM</div>
+        <div className="text-3x1 ml-[7.5%]">project and the GNU Compiler Collection.</div>
       </div>
 
       <br></br>
