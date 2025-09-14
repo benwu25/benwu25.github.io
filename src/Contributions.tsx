@@ -11,10 +11,10 @@ export default function Contributions() {
         <br></br>
 
         <div>
-          <b className="text-[20px] ml-[14%]">LLVM</b>
+          <b className="text-[20px] ml-[8%]">LLVM</b>
         </div>
 
-          <ul className="list-disc ml-[18%]">
+          <ul className="list-disc ml-[12%]">
 
             <li>
               <a className="underline" href="https://github.com/llvm/llvm-project/pull/156962">[clang] Fix typo in comment</a>
