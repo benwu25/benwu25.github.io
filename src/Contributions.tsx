@@ -14,7 +14,7 @@ export default function Contributions() {
           <b className="text-[20px]">LLVM</b>
         </div>
 
-        <div className="flex justify-center">
+        <div className="flex justify-center flex-col items-center">
           <ul className="list-disc list-outside ml-[4.8%]">
 
             <li>
