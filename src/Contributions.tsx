@@ -12,13 +12,14 @@ export default function Contributions() {
         <b className="text-[20px] ml-[3.365%]">LLVM</b>
       </div>
 
-      <ul className="list-disc list-inside">
+      <div>
+      <ul className="list-disc list-outside ml-[4.8%]">
 
-        <li className="ml-[4.8%]">
+        <li>
           <a className="underline" href="https://github.com/llvm/llvm-project/pull/156962">[clang] Fix typo in comment</a>
         </li>
 
-        <li className="ml-[4.8%]">
+        <li>
           <a className="underline" href="https://github.com/llvm/llvm-project/pull/157782">[InstCombine] Fold min(X+1, Y) - min(X, Y) --&gt; zext X &lt; Y</a>
           <ul className="list-disc ml-6">
             <li>
@@ -28,6 +29,7 @@ export default function Contributions() {
         </li>
 
       </ul>
+      </div>
 
       <br></br>
 
@@ -35,9 +37,10 @@ export default function Contributions() {
         <b className="text-[20px] ml-[3.365%]">GCC</b>
       </div>
 
-      <ul className="list-disc list-outside pl-[4.8%] overflow-hidden">
+      <div>
+      <ul className="list-disc list-outside ml-[4.8%]">
 
-        <li className="overflow-hidden">
+        <li>
           <a className="underline" href="https://gcc.gnu.org/git/?p=gcc.git;a=commitdiff;h=356250630abd876ae592bc3d2b4cc171bc834b79">middle end: Fix typo in gimple.h</a>
         </li>
 
@@ -46,7 +49,7 @@ export default function Contributions() {
         </li>
 
         <li className="">
-          <a className="-indent-[5%] underline" href="https://gcc.gnu.org/git/?p=gcc.git;a=commitdiff;h=54bf72ebfe983c611673bcc4368b5834773fcc7d">c++: Fix ICE on mangling invalid compound requirement</a>
+          <a className="underline" href="https://gcc.gnu.org/git/?p=gcc.git;a=commitdiff;h=54bf72ebfe983c611673bcc4368b5834773fcc7d">c++: Fix ICE on mangling invalid compound requirement</a>
           <ul className="list-disc ml-6">
             <li>
               <a className="underline" href="https://gcc.gnu.org/bugzilla/show_bug.cgi?id=120618">Resolved bug 120618</a>
@@ -55,8 +58,8 @@ export default function Contributions() {
         </li>
 
       </ul>
+      </div>
 
-      <br></br>
       <br></br>
       <br></br>
       <br></br>
