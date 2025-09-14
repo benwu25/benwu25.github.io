@@ -15,7 +15,7 @@ export default function Contributions() {
         </div>
 
         <div className="flex justify-center flex-col items-center">
-          <ul className="list-disc ml-[4.8%]">
+          <ul className="list-disc ml-[20%]">
 
             <li>
               <a className="underline" href="https://github.com/llvm/llvm-project/pull/156962">[clang] Fix typo in comment</a>
@@ -40,7 +40,7 @@ export default function Contributions() {
         </div>
 
         <div className="flex justify-center">
-          <ul className="list-disc list-outside ml-[4.8%]">
+          <ul className="list-disc list-outside ml-[20%]">
   
             <li>
               <a className="underline" href="https://gcc.gnu.org/git/?p=gcc.git;a=commitdiff;h=356250630abd876ae592bc3d2b4cc171bc834b79">middle end: Fix typo in gimple.h</a>
@@ -61,26 +61,6 @@ export default function Contributions() {
             </ul>
           </ul>
         </div>
-
-{/* experiment */}
-
-        <div className="ml-[50%]">Is it stuck?</div>
-
-        <br></br>
-
-        <ul className="list-disc ml-[50%]">
-          <li><a className="underline" href="https://google.com">"Is it stuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuck?</a></li>
-
-        <ul className="list-disc ml-6">
-          <li>
-            <a className="underline" href="https://gcc.gnu.org/bugzilla/show_bug.cgi?id=120618">Resolved bug 120618</a>
-          </li>
-        </ul>
-
-        </ul>
-
-
-{/**/}
 
         <br></br>
         <br></br>
