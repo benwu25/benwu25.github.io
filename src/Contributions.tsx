@@ -62,6 +62,18 @@ export default function Contributions() {
           </ul>
         </div>
 
+{/* experiment */}
+
+        <div className="ml-[50%]">Is it stuck?</div>
+
+        <br></br>
+
+        <ul className="list-disc ml-[50%]">
+          <li>Is it stuck?</li>
+        </ul>
+
+{/**/}
+
         <br></br>
         <br></br>
         <br></br>
