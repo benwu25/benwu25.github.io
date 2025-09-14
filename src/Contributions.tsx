@@ -12,23 +12,23 @@ export default function Contributions() {
         <b className="text-[20px] ml-[3.365%]">LLVM</b>
       </div>
 
-      <div>
-      <ul className="list-disc list-outside ml-[4.8%]">
-
-        <li>
-          <a className="underline" href="https://github.com/llvm/llvm-project/pull/156962">[clang] Fix typo in comment</a>
-        </li>
-
-        <li>
-          <a className="underline" href="https://github.com/llvm/llvm-project/pull/157782">[InstCombine] Fold min(X+1, Y) - min(X, Y) --&gt; zext X &lt; Y</a>
-          <ul className="list-disc ml-6">
-            <li>
-              <a className="underline" href="https://github.com/llvm/llvm-project/issues/157524">Resolved issue 157524</a>
-            </li>
-          </ul>
-        </li>
-
-      </ul>
+      <div className="ml-[4.8%]">
+        <ul className="list-disc list-outside">
+  
+          <li>
+            <a className="underline" href="https://github.com/llvm/llvm-project/pull/156962">[clang] Fix typo in comment</a>
+          </li>
+  
+          <li>
+            <a className="underline" href="https://github.com/llvm/llvm-project/pull/157782">[InstCombine] Fold min(X+1, Y) - min(X, Y) --&gt; zext X &lt; Y</a>
+            <ul className="list-disc ml-6">
+              <li>
+                <a className="underline" href="https://github.com/llvm/llvm-project/issues/157524">Resolved issue 157524</a>
+              </li>
+            </ul>
+          </li>
+  
+        </ul>
       </div>
 
       <br></br>
