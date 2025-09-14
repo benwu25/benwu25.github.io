@@ -68,16 +68,15 @@ export default function Contributions() {
 
         <br></br>
 
-        <ul className="list-disc ml-[4.8%]">
+        <ul className="list-disc ml-[50%]">
           <li><a className="underline" href="https://google.com">"Is it stuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuck?</a></li>
 
-        </ul>
-
-        {/* nested */}
-        <ul className="list-disc ml-[5.2%]">
+        <ul className="list-disc ml-6">
           <li>
             <a className="underline" href="https://gcc.gnu.org/bugzilla/show_bug.cgi?id=120618">Resolved bug 120618</a>
           </li>
+        </ul>
+
         </ul>
 
 
