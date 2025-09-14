@@ -69,7 +69,7 @@ export default function Contributions() {
         <br></br>
 
         <ul className="list-disc ml-[50%]">
-          <li>Is it stuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuck?</li>
+          <li><a className="underline" href="https://google.com">"Is it stuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuck?</a></li>
         </ul>
 
 {/**/}
