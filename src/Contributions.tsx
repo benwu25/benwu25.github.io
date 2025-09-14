@@ -11,7 +11,7 @@ export default function Contributions() {
         <br></br>
 
         <div>
-          <b className="text-[20px] ml-[8%]">LLVM</b>
+          <b className="text-[20px] ml-[5%]">LLVM</b>
         </div>
 
           <ul className="list-disc ml-[12%]">
@@ -34,10 +34,10 @@ export default function Contributions() {
         <br></br>
 
         <div>
-          <b className="text-[20px] ml-[14%]">GCC</b>
+          <b className="text-[20px] ml-[5%]">GCC</b>
         </div>
 
-          <ul className="list-disc list-outside ml-[18%]">
+          <ul className="list-disc list-outside ml-[12%]">
   
             <li>
               <a className="underline" href="https://gcc.gnu.org/git/?p=gcc.git;a=commitdiff;h=356250630abd876ae592bc3d2b4cc171bc834b79">middle end: Fix typo in gimple.h</a>
