@@ -14,14 +14,14 @@ export default function Contributions() {
           <b className="text-[20px]">LLVM</b>
         </div>
 
-        <div className="flex justify-center flex-col items-center text-left">
-          <ul className="list-disc list-outside ml-[4.8%] text-left">
+        <div className="flex justify-center flex-col items-center">
+          <ul className="list-disc list-outside ml-[4.8%] inline-block">
 
-            <li>
+            <li className="text-left">
               <a className="underline" href="https://github.com/llvm/llvm-project/pull/156962">[clang] Fix typo in comment</a>
             </li>
 
-            <li>
+            <li className="text-left">
               <a className="underline" href="https://github.com/llvm/llvm-project/pull/157782">[InstCombine] Fold min(X+1, Y) - min(X, Y) --&gt; zext X &lt; Y</a>
               <ul className="list-disc ml-6">
                 <li>
