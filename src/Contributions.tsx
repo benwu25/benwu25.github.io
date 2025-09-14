@@ -12,7 +12,7 @@ export default function Contributions() {
         <b className="text-[20px] ml-[3.365%]">LLVM</b>
       </div>
 
-      <ul className="list-disc list-outside ml-[4.8%] w-auto">
+      <ul className="list-disc list-outside ml-[4.8%] w-auto p-0">
 
         <li>
           <a className="underline" href="https://github.com/llvm/llvm-project/pull/156962">[clang] Fix typo in comment</a>
@@ -35,7 +35,7 @@ export default function Contributions() {
         <b className="text-[20px] ml-[3.365%]">GCC</b>
       </div>
 
-      <ul className="list-disc list-outside ml-[4.8%] w-auto">
+      <ul className="list-disc list-outside ml-[4.8%] w-auto p-0">
 
         <li>
           <a className="underline" href="https://gcc.gnu.org/git/?p=gcc.git;a=commitdiff;h=356250630abd876ae592bc3d2b4cc171bc834b79">middle end: Fix typo in gimple.h</a>
