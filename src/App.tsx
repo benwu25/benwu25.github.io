@@ -10,9 +10,6 @@ export default function App() {
         <br></br>
         <br></br>
         <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
 
         <div>
           <b className="ml-[1%] text-[30px]">Ben Wu</b>
