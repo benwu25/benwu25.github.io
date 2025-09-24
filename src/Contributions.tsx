@@ -28,6 +28,11 @@ export default function Contributions() {
                 <a className="underline text-[10px]" href="https://github.com/llvm/llvm-project/issues/157524">Resolved issue 157524</a>
               </li>
             </ul>
+
+            <li>
+              <a className="underline text-[10px]" href="https://github.com/llvm/llvm-project/issues/159743">In progress: [MLIR][CF][Canonicalizer] infinite loop trying to simplify control flow</a>
+            </li>
+
           </ul>
 
         <br></br>
@@ -62,9 +67,13 @@ export default function Contributions() {
 
             <ul className="list-disc ml-6">
               <li>
-                <a className="underline" href="https://gcc.gnu.org/bugzilla/show_bug.cgi?id=118087">Resolved bug 118087</a>
+                <a className="underline text-[10px]" href="https://gcc.gnu.org/bugzilla/show_bug.cgi?id=118087">Resolved bug 118087</a>
               </li>
             </ul>
+
+            <li>
+              <a className="underline text-[10px]" href="https://gcc.gnu.org/bugzilla/show_bug.cgi?id=119745">In progress: [C++23] Implement P2438R2, basic_string::substr() &&</a>
+            </li>
 
           </ul>
 
