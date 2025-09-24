@@ -60,6 +60,12 @@ export default function Contributions() {
               <a className="underline text-[10px]" href="https://forge.sourceware.org/gcc/gcc-mirror/commit/52d702d72afa0ade8edfff144b45539495e4d408">libstdc++: fix element construction in std::deque::emplace</a>
             </li>
 
+            <ul className="list-disc ml-6">
+              <li>
+                <a className="underline" href="https://gcc.gnu.org/bugzilla/show_bug.cgi?id=118087">Resolved bug 118087</a>
+              </li>
+            </ul>
+
           </ul>
 
         <br></br>
@@ -127,6 +133,12 @@ export default function Contributions() {
         <li>
           <a className="underline" href="https://forge.sourceware.org/gcc/gcc-mirror/commit/52d702d72afa0ade8edfff144b45539495e4d408">libstdc++: fix element construction in std::deque::emplace</a>
         </li>
+
+        <ul className="list-disc ml-6">
+          <li>
+            <a className="underline" href="https://gcc.gnu.org/bugzilla/show_bug.cgi?id=118087">Resolved bug 118087</a>
+          </li>
+        </ul>
 
       </ul>
 
