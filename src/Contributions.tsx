@@ -30,8 +30,14 @@ export default function Contributions() {
             </ul>
 
             <li>
-              <a className="underline text-[10px]" href="https://github.com/llvm/llvm-project/issues/159743">In progress: [MLIR][CF][Canonicalizer] infinite loop trying to simplify control flow</a>
+              <a className="underline text-[10px]" href="https://github.com/llvm/llvm-project/pull/160783">In progress: [MLIR][CF] Avoid collapsing blocks which participate in cycles</a>
             </li>
+
+            <ul className="list-disc ml-6">
+              <li>
+                <a className="underline text-[10px]" href="https://github.com/llvm/llvm-project/issues/159743">Resolved issue 159473</a>
+              </li>
+            </ul>
 
           </ul>
 
@@ -113,8 +119,14 @@ export default function Contributions() {
         </ul>
 
         <li>
-          <a className="underline" href="https://github.com/llvm/llvm-project/issues/159743">In progress: [MLIR][CF][Canonicalizer] infinite loop trying to simplify control flow</a>
+          <a className="underline" href="https://github.com/llvm/llvm-project/pull/160783">In progress: [MLIR][CF] Avoid collapsing blocks which participate in cycles</a>
         </li>
+
+        <ul className="list-disc ml-6">
+          <li>
+            <a className="underline" href="https://github.com/llvm/llvm-project/issues/159743">Resolved issue 159473</a>
+          </li>
+        </ul>
 
       </ul>
 
