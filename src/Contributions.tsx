@@ -119,7 +119,7 @@ export default function Contributions() {
         </ul>
 
         <li>
-          <a className="underline" href="https://github.com/llvm/llvm-project/pull/160783">In progress: [MLIR][CF] Avoid collapsing blocks which participate in cycles</a>
+          <a className="underline" href="https://github.com/llvm/llvm-project/pull/160783">[MLIR][CF] Avoid collapsing blocks which participate in cycles</a>
         </li>
 
         <ul className="list-disc ml-6">
@@ -130,7 +130,11 @@ export default function Contributions() {
 
       </ul>
 
+      {/* END LLVM */}
+
       <br></br>
+
+      {/* START GCC */}
 
       <div>
         <b className="text-[20px] ml-[3.365%]">GCC</b>
