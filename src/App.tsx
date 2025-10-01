@@ -18,11 +18,17 @@ export default function App() {
         <div>
           <a className="underline ml-[1.2%] text-[12px]" href="mailto:bwu25@cs.washington.edu">Email</a>
         </div>
+
         <div>
           <a className="underline ml-[1.2%] text-[12px]" href="https://www.linkedin.com/in/benwu25">LinkedIn</a>
         </div>
+
         <div>
           <a className="underline ml-[1.2%] text-[12px]" href="https://github.com/benwu25">GitHub</a>
+        </div>
+
+        <div>
+          <a className="underline ml-[1.2%] text-[12px]" href="https://leetcode.com/u/bwu25/">LeetCode</a>
         </div>
 
         <br></br>
@@ -77,11 +83,17 @@ export default function App() {
       <div>
         <a className="underline ml-[6.85%]" href="mailto:bwu25@cs.washington.edu">Email</a>
       </div>
+
       <div>
         <a className="underline ml-[6.85%]" href="https://www.linkedin.com/in/benwu25">LinkedIn</a>
       </div>
+
       <div>
         <a className="underline ml-[6.85%]" href="https://github.com/benwu25">GitHub</a>
+      </div>
+
+      <div>
+        <a className="underline ml-[6.85%]" href="https://leetcode.com/u/bwu25/">LeetCode</a>
       </div>
 
       <br></br>
