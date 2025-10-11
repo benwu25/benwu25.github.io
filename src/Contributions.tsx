@@ -9,6 +9,13 @@ export default function Contributions() {
         <br></br>
         <br></br>
 
+        <div className="max-w-180 text-[10px] ml-[1.85%]">
+          
+        </div>
+
+        <br></br>
+        <br></br>
+
         <div>
           <b className="text-[20px] ml-[1%]">LLVM</b>
         </div>
@@ -98,8 +105,28 @@ export default function Contributions() {
       <br></br>
       <br></br>
 
+      <div className="max-w-180 text-3x1 ml-[1.6825%]">
+        This is a list of PRs and patches I have contributed to two open source projects: the LLVM project and the GCC project. Each bullet is a PR or a patch link. If the PR or patch closed a specific bug ticket or GitHub issue, the bug or issue is linked immediately after the PR/patch which closed it.
+      </div>
+
+      <br></br>
+
+      <div className="max-w-180 text-3x1 ml-[1.6825%]">
+        If you are unfamiliar with these open source projects or would like to learn more, the project logos and titles link to the project homepage, and links to the primary repositories for development are also listed.
+      </div>
+
+      <br></br>
+      <br></br>
+
+      <a href="https://llvm.org">
+        <img src="/src/assets/LLVMWyvernSmall.png" className="h-25 ml-[3.365%]"></img>
+      </a>
+
       <div>
-        <b className="text-[20px] ml-[3.365%]">LLVM</b>
+        <a className="font-bold text-[20px] ml-[3.365%]" href="https://llvm.org/">LLVM</a>
+        <a className="ml-[0.5%]">(</a>
+        <a className="underline" href="https://github.com/llvm/llvm-project">34k stars on GitHub</a>
+        <a>)</a>
       </div>
 
       <ul className="list-disc ml-[4.8%]">
@@ -133,11 +160,19 @@ export default function Contributions() {
       {/* END LLVM */}
 
       <br></br>
+      <br></br>
 
       {/* START GCC */}
 
+      <a href="https://gcc.gnu.org">
+        <img src="/src/assets/GNU_Compiler_Collection_logo.svg.png" className="h-30 ml-[3.365%]"></img>
+      </a>
+
       <div>
-        <b className="text-[20px] ml-[3.365%]">GCC</b>
+        <a className="font-bold text-[20px] ml-[3.365%]" href="https://gcc.gnu.org/">GCC</a>
+        <a className="ml-[0.5%]">(</a>
+        <a className="underline" href="https://forge.sourceware.org/gcc/gcc-TEST">Online repo</a>
+        <a>)</a>
       </div>
 
       <ul className="list-disc ml-[4.8%]">
@@ -151,7 +186,7 @@ export default function Contributions() {
         </li>
 
         <li className="">
-          <a className="underline" href="https://forge.sourceware.org/gcc/gcc-mirror/commit/54bf72ebfe983c611673bcc4368b5834773fcc7d">c++: Fix ICE on mangling invalid compound requirement</a>
+          <a className="underline" href="https://forge.sourceware.org/gcc/gcc-test/commit/54bf72ebfe983c611673bcc4368b5834773fcc7d">c++: Fix ICE on mangling invalid compound requirement</a>
         </li>
 
         <ul className="list-disc ml-6">
@@ -161,7 +196,7 @@ export default function Contributions() {
         </ul>
 
         <li>
-          <a className="underline" href="https://forge.sourceware.org/gcc/gcc-mirror/commit/52d702d72afa0ade8edfff144b45539495e4d408">libstdc++: fix element construction in std::deque::emplace</a>
+          <a className="underline" href="https://forge.sourceware.org/gcc/gcc-test/commit/52d702d72afa0ade8edfff144b45539495e4d408">libstdc++: fix element construction in std::deque::emplace</a>
         </li>
 
         <ul className="list-disc ml-6">
