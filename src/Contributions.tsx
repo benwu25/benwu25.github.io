@@ -121,7 +121,7 @@ export default function Contributions() {
       <br></br>
 
       <a href="https://llvm.org">
-        <img src="{dragon}" className="h-25 ml-[3.365%]"></img>
+        <img src={dragon} className="h-25 ml-[3.365%]"></img>
       </a>
 
       <div>
@@ -167,7 +167,7 @@ export default function Contributions() {
       {/* START GCC */}
 
       <a href="https://gcc.gnu.org">
-        <img src="{egg}" className="h-30 ml-[3.365%]"></img>
+        <img src={egg} className="h-30 ml-[3.365%]"></img>
       </a>
 
       <div>
