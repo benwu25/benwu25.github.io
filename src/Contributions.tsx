@@ -1,4 +1,6 @@
 import { isMobile } from 'react-device-detect'
+import dragon from '/src/assets/LLVMWyvernSmall.png'
+import egg from '/src/assets/GNU_Compiler_Collection_logo.svg.png'
 import './App.css'
 
 export default function Contributions() {
@@ -119,7 +121,7 @@ export default function Contributions() {
       <br></br>
 
       <a href="https://llvm.org">
-        <img src="/src/assets/LLVMWyvernSmall.png" className="h-25 ml-[3.365%]"></img>
+        <img src="{dragon}" className="h-25 ml-[3.365%]"></img>
       </a>
 
       <div>
@@ -165,7 +167,7 @@ export default function Contributions() {
       {/* START GCC */}
 
       <a href="https://gcc.gnu.org">
-        <img src="/src/assets/GNU_Compiler_Collection_logo.svg.png" className="h-30 ml-[3.365%]"></img>
+        <img src="{egg}" className="h-30 ml-[3.365%]"></img>
       </a>
 
       <div>
