@@ -12,15 +12,32 @@ export default function Contributions() {
         <br></br>
 
         <div className="max-w-180 text-[10px] ml-[1.85%]">
-          
+          This is a list of PRs and patches I have contributed to two open source projects: the LLVM project and the GCC project. Each bullet is a PR or a patch link. If the PR or patch closed a specific bug ticket or GitHub issue, the bug or issue is linked immediately after the PR/patch which closed it.
+        </div>
+
+        <br></br>
+
+        <div className="max-w-180 text-[10px] ml-[1.85%]">
+          If you are unfamiliar with these open source projects or would like to learn more, the project logos and titles link to the project homepage, and links to the primary repositories for development are also listed.
         </div>
 
         <br></br>
         <br></br>
+
+        <a href="https://llvm.org">
+          <img src={dragon} className="h-25 ml-[3.365%]"></img>
+        </a>
 
         <div>
-          <b className="text-[20px] ml-[1%]">LLVM</b>
+          <a className="font-bold text-[20px] ml-[1%]" href="https://llvm.org/">LLVM</a>
+          <a className="ml-[0.5%] text-[10px]">(</a>
+          <a className="underline text-[10px]" href="https://github.com/llvm/llvm-project">34k stars on GitHub</a>
+          <a className="text-[10px]">)</a>
         </div>
+
+        {/* <div>
+          <b className="text-[20px] ml-[1%]">LLVM</b>
+        </div> */}
 
           <ul className="list-disc ml-[8%]">
 
@@ -51,6 +68,8 @@ export default function Contributions() {
           </ul>
 
         <br></br>
+
+        {/* GCC */}
 
         <div>
           <b className="text-[20px] ml-[1%]">GCC</b>
