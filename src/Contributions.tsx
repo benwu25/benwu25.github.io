@@ -24,7 +24,7 @@ export default function Contributions() {
         <br></br>
         <br></br>
 
-        <a className="ml-[1%]" href="https://llvm.org">
+        <a className="-ml-[15%]" href="https://llvm.org">
           <img src={dragon} className="h-25"></img>
         </a>
 
