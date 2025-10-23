@@ -66,7 +66,7 @@ export default function App() {
 
           <div>
             <a>
-              <img src={bin} className="h-50 ml-[10%]"></img>
+              <img src={bin} className="h-50"></img>
             </a>
           </div>
 
@@ -94,6 +94,7 @@ export default function App() {
 
 
       <div className="ml-[6.65%] flex">
+
         <div>
 
           <div>
