@@ -66,7 +66,7 @@ export default function App() {
 
           <div>
             <a>
-              <img src={bin} className="h-50 -ml-[400%]"></img>
+              <img src={bin} className="h-50 -ml-[300%]"></img>
             </a>
           </div>
 
