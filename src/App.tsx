@@ -64,6 +64,7 @@ export default function App() {
 
           </div>
 
+          {/* todo: fix scaling on mobile */}
           <div>
             <a>
               <img src={bin} className="h-50 -ml-[300%]"></img>
