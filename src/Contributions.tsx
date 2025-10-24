@@ -35,10 +35,6 @@ export default function Contributions() {
           <a className="text-[10px]">)</a>
         </div>
 
-        {/* <div>
-          <b className="text-[20px] ml-[1%]">LLVM</b>
-        </div> */}
-
           <ul className="list-disc ml-[8%]">
 
             <li>
@@ -71,8 +67,15 @@ export default function Contributions() {
 
         {/* GCC */}
 
+        <a className="ml-[1%]" href="https://gcc.gnu.org/">
+          <img src={dragon} className="h-25"></img>
+        </a>
+
         <div>
-          <b className="text-[20px] ml-[1%]">GCC</b>
+          <a className="font-bold text-[20px] ml-[1%]" href="https://gcc.gnu.org/">GCC</a>
+          <a className="ml-[0.5%] text-[10px]">(</a>
+          <a className="underline text-[10px]" href="https://forge.sourceware.org/gcc/gcc-TEST">Online repo</a>
+          <a className="text-[10px]">)</a>
         </div>
 
           <ul className="list-disc list-outside ml-[8%]">
