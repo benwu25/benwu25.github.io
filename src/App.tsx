@@ -1,5 +1,5 @@
 import { Link } from 'react-router'
-import { isMobile } from 'react-device-detect'
+// import { isMobile } from 'react-device-detect'
 import bin from '/src/assets/DSC01012.jpeg'
 import './App.css'
 
