@@ -4,7 +4,7 @@ import bin from '/src/assets/DSC01012.jpeg'
 import './App.css'
 
 export default function App() {
-  if (isMobile) {
+{/*  if (isMobile) {
     return (
       <div>
         <br></br>
@@ -64,7 +64,6 @@ export default function App() {
 
           </div>
 
-          {/* todo: fix scaling on mobile */}
           <div>
             <a>
               <img src={bin} className="h-50 -ml-[300%]"></img>
@@ -82,6 +81,7 @@ export default function App() {
     )
 
   }
+*/}
 
   return (
     <div>
