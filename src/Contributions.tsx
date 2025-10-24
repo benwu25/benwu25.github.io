@@ -68,7 +68,7 @@ export default function Contributions() {
         {/* GCC */}
 
         <a className="ml-[1%]" href="https://gcc.gnu.org/">
-          <img src={dragon} className="h-25"></img>
+          <img src={egg} className="h-25"></img>
         </a>
 
         <div>
