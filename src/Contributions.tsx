@@ -31,7 +31,7 @@ export default function Contributions() {
         <div>
           <a className="font-bold text-[20px] ml-[1%]" href="https://llvm.org/">LLVM</a>
           <a className="ml-[0.5%] text-[10px]">(</a>
-          <a className="underline text-[10px]" href="https://github.com/llvm/llvm-project">34k stars on GitHub</a>
+          <a className="underline text-[10px]" href="https://github.com/llvm/llvm-project">35k stars on GitHub</a>
           <a className="text-[10px]">)</a>
         </div>
 
@@ -149,7 +149,7 @@ export default function Contributions() {
       <div>
         <a className="font-bold text-[20px] ml-[3.365%]" href="https://llvm.org/">LLVM</a>
         <a className="ml-[0.5%]">(</a>
-        <a className="underline" href="https://github.com/llvm/llvm-project">34k stars on GitHub</a>
+        <a className="underline" href="https://github.com/llvm/llvm-project">35k stars on GitHub</a>
         <a>)</a>
       </div>
 
