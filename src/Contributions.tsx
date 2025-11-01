@@ -52,7 +52,7 @@ export default function Contributions() {
             </ul>
 
             <li>
-              <a className="underline text-[10px]" href="https://github.com/llvm/llvm-project/pull/160783">In progress: [MLIR][CF] Avoid collapsing blocks which participate in cycles</a>
+              <a className="underline text-[10px]" href="https://github.com/llvm/llvm-project/pull/160783">[MLIR][CF] Avoid collapsing blocks which participate in cycles</a>
             </li>
 
             <ul className="list-disc ml-6">
