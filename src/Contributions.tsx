@@ -109,8 +109,14 @@ export default function Contributions() {
             </ul>
 
             <li>
-              <a className="underline text-[10px]" href="https://gcc.gnu.org/bugzilla/show_bug.cgi?id=119745">In progress: [C++23] Implement P2438R2, basic_string::substr() &&</a>
+              <a className="underline text-[10px]" href="https://forge.sourceware.org/gcc/gcc-TEST/commit/0ee1ade8fafd92c95c1318f9207dbf1ce203ca61">c++: clear in_declarator_p before parsing a lambda [PR121443]</a>
             </li>
+
+            <ul className="list-disc ml-6">
+              <li>
+                <a className="underline text-[10px]" href="https://gcc.gnu.org/bugzilla/show_bug.cgi?id=121443">Resolved bug 121443</a>
+              </li>
+            </ul>
 
           </ul>
 
@@ -230,8 +236,14 @@ export default function Contributions() {
         </ul>
 
         <li>
-          <a className="underline" href="https://gcc.gnu.org/bugzilla/show_bug.cgi?id=119745">In progress: [C++23] Implement P2438R2, basic_string::substr() &&</a>
+          <a className="underline" href="https://forge.sourceware.org/gcc/gcc-TEST/commit/0ee1ade8fafd92c95c1318f9207dbf1ce203ca61">c++: clear in_declarator_p before parsing a lambda [PR121443]</a>
         </li>
+
+        <ul className="list-disc ml-6">
+          <li>
+            <a className="underline" href="https://gcc.gnu.org/bugzilla/show_bug.cgi?id=121443">Resolved bug 121443</a>
+          </li>
+        </ul>
 
       </ul>
 
