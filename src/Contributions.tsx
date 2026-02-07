@@ -1,6 +1,7 @@
 import { isMobile } from 'react-device-detect'
 import dragon from '/src/assets/LLVMWyvernSmall.png'
 import egg from '/src/assets/GNU_Compiler_Collection_logo.svg.png'
+import clickhouse from '/src/assets/ClickHouse.jpg'
 import './App.css'
 
 export default function Contributions() {
@@ -148,6 +149,8 @@ export default function Contributions() {
       <br></br>
       <br></br>
 
+      {/* START LLVM */}
+
       <a href="https://llvm.org">
         <img src={dragon} className="h-25 ml-[3.365%]"></img>
       </a>
@@ -189,6 +192,7 @@ export default function Contributions() {
 
       {/* END LLVM */}
 
+      <br></br>
       <br></br>
       <br></br>
 
@@ -246,6 +250,36 @@ export default function Contributions() {
         </ul>
 
       </ul>
+
+      {/* END GCC */}
+
+      <br></br>
+      <br></br>
+      <br></br>
+
+      {/* START CLICKHOUSE */}
+
+      <a href="https://clickhouse.com">
+        <img src={clickhouse} className="mb-[8px] ml-[3.365%]"></img>
+      </a>
+
+      <div>
+        <a className="font-bold text-[20px] ml-[3.365%]" href="https://clickhouse.com">ClickHouse</a>
+        <a className="fond-bold text-[20px] ml-[3.365%]" href="https://clickhouse.com">ClickHouse</a>
+        <a className="ml-[0.5%]">(</a>
+        <a className="underline" href="https://github.com/ClickHouse/ClickHouse">45k stars on GitHub</a>
+        <a>)</a>
+      </div>
+
+      <ul className="list-disc ml-[4.8%]">
+
+        <li>
+          <a className="underline" href="https://github.com/ClickHouse/ClickHouse/pull/96262">Fix typo in developer instructions</a>
+        </li>
+
+      </ul>
+
+      {/* END CLICKHOUSE */}
 
       <br></br>
       <br></br>
