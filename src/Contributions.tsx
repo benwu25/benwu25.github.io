@@ -32,7 +32,7 @@ export default function Contributions() {
         <div>
           <a className="font-bold text-[20px] ml-[1%]" href="https://llvm.org/">LLVM</a>
           <a className="ml-[0.5%] text-[10px]">(</a>
-          <a className="underline text-[10px]" href="https://github.com/llvm/llvm-project">35k stars on GitHub</a>
+          <a className="underline text-[10px]" href="https://github.com/llvm/llvm-project">36k stars on GitHub</a>
           <a className="text-[10px]">)</a>
         </div>
 
@@ -136,14 +136,8 @@ export default function Contributions() {
       <br></br>
       <br></br>
 
-      <div className="max-w-180 text-3x1 ml-[1.6825%]">
-        This is a list of PRs and patches I have contributed to two open source projects: the LLVM project and the GCC project. Each bullet is a PR or a patch link. If the PR or patch closed a specific bug ticket or GitHub issue, the bug or issue is linked immediately after the PR/patch which closed it.
-      </div>
-
-      <br></br>
-
-      <div className="max-w-180 text-3x1 ml-[1.6825%]">
-        If you are unfamiliar with these open source projects or would like to learn more, the project logos and titles link to the project homepage, and links to the primary repositories for development are also listed.
+      <div className="max-w-180 text-[13px] ml-[1.6825%]">
+        LLVM is a set of compiler and toolchain technologies that can be used to develop a frontend for any programming language and a backend for any instruction set architecture. It is written primarily in C++ and is maintained by an active community of developers across a wide variety of open source organizations and companies, such as Google, Red Hat, Igalia, Apple, AMD, NVIDIA, and many more.
       </div>
 
       <br></br>
@@ -193,6 +187,14 @@ export default function Contributions() {
       {/* END LLVM */}
 
       <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+
+      <div className="max-w-180 text-[13px] ml-[1.6825%]">
+        The GNU Compiler Collection (GCC) includes front ends for C (gcc), C++ <br></br>(g++), Objective-C, Objective-C++, Fortran, Ada, Go, D, Modula-2, COBOL, Rust (gccrs), and Algol 68 as well as libraries for thse languages (libstdc++, ...). It is written primarily in C and C++ and is a stable yet actively maintained project. It is the primary compiler toolchain used across many Linux systems and distributions.
+      </div>
+
       <br></br>
       <br></br>
 
@@ -256,6 +258,15 @@ export default function Contributions() {
       <br></br>
       <br></br>
       <br></br>
+      <br></br>
+
+      <div className="max-w-180 text-[13px] ml-[1.6825%]">
+        ClickHouse is a high-performance, column-oriented, distributed SQL database <br></br>management system (DBMS) for online analytical processing (OLAP). It is <br></br>written primarily in C++ and is maintained by ClickHouse, Inc. with the <br></br>database engine code hosted on GitHub.
+      </div>
+
+      <br></br>
+      <br></br>
+
 
       {/* START CLICKHOUSE */}
 
@@ -265,7 +276,6 @@ export default function Contributions() {
 
       <div>
         <a className="font-bold text-[20px] ml-[3.365%]" href="https://clickhouse.com">ClickHouse</a>
-        <a className="fond-bold text-[20px] ml-[3.365%]" href="https://clickhouse.com">ClickHouse</a>
         <a className="ml-[0.5%]">(</a>
         <a className="underline" href="https://github.com/ClickHouse/ClickHouse">45k stars on GitHub</a>
         <a>)</a>
@@ -280,6 +290,24 @@ export default function Contributions() {
       </ul>
 
       {/* END CLICKHOUSE */}
+
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+
+      <div className="max-w-180 text-[15px] ml-[1.6825%]">
+        What is this? This is an accumulation of contributions I have made to LLVM, GCC, and ClickHouse. I contribute to these projects because they are each large and actively developed C++ projects related to compiler toolchains (LLVM and GCC) and databse management systems (ClickHouse), which are particularly interesting to me as a student.
+      </div>
+
+      <br></br>
+
+      <div className="max-w-180 text-[15px] ml-[1.6825%]">
+	Each bullet is a link to a PR or a patch I wrote, and resolved bugs and issues are also listed.
+      </div>
 
       <br></br>
       <br></br>
