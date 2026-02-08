@@ -299,11 +299,13 @@ export default function Contributions() {
       <br></br>
       <br></br>
 
-      <div className="max-w-180 text-[15px] ml-[1.6825%]">
-        What is this? This is an accumulation of contributions I have made to LLVM, GCC, and ClickHouse. I contribute to these projects because they are each large and actively developed C++ projects related to compiler toolchains (LLVM and GCC) and databse management systems (ClickHouse), which are particularly interesting to me as a student.
-      </div>
+      <div className="font-bold text-[20px] ml-[1.6825%]">What is this?</div>
 
       <br></br>
+
+      <div className="max-w-180 mb-[15px] text-[15px] ml-[1.6825%]">
+        This is an accumulation of contributions I have made to LLVM, GCC, and ClickHouse. I contribute to these projects because they are each large and actively developed C++ projects related to compiler toolchains (LLVM and GCC) and databse management systems (ClickHouse), which are particularly interesting to me as a student.
+      </div>
 
       <div className="max-w-180 text-[15px] ml-[1.6825%]">
 	Each bullet is a link to a PR or a patch I wrote, and resolved bugs and issues are also listed.
