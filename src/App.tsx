@@ -22,7 +22,7 @@ export default function App() {
             </div>
 
             <div>
-              <a className="underline ml-[0.2%] text-[12px]" href="mailto:bwu25@cs.washington.edu">Email</a>
+              <a className="underline ml-[0.2%] text-[12px]" href="mailto:benjamin.wu37@gmail.com">Email</a>
             </div>
 
             <div>
@@ -102,7 +102,7 @@ export default function App() {
           </div>
 
           <div>
-            <a className="underline ml-[0.2%]" href="mailto:bwu25@cs.washington.edu">Email</a>
+            <a className="underline ml-[0.2%]" href="mailto:benjamin.wu37@gmail.com">Email</a>
           </div>
 
           <div>
