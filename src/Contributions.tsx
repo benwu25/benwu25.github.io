@@ -2,6 +2,7 @@ import { isMobile } from 'react-device-detect'
 import dragon from '/src/assets/LLVMWyvernSmall.png'
 import egg from '/src/assets/GNU_Compiler_Collection_logo.svg.png'
 import clickhouse from '/src/assets/ClickHouse.jpg'
+import linux from '/src/assets/tux.png'
 import './App.css'
 
 export default function Contributions() {
@@ -261,6 +262,41 @@ export default function Contributions() {
       <br></br>
 
       <div className="max-w-180 text-[13px] ml-[1.6825%]">
+        The Linux kernel! Free and open source kernel used in phones, desktops, servers,<br></br>embedded devices, etc.
+      </div>
+
+      <br></br>
+      <br></br>
+
+      {/* START LINUX */}
+
+      <a href="https://www.kernel.org/">
+        <img src={linux} className="mb-[8px] ml-[3.365%]"></img>
+      </a>
+
+      <div>
+        <a className="font-bold text-[20px] ml-[3.365%]" href="https://git.kernel.org/">Linux</a>
+        <a className="ml-[0.5%]">(</a>
+        <a className="underline" href="https://github.com/torvalds/linux">243k stars on GitHub</a>
+        <a>)</a>
+      </div>
+
+      <ul className="list-disc ml-[4.8%]">
+
+        <li>
+          <a className="underline" href="https://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git/commit/?id=7c7fe554f40a">docs: fix grammatical error in iomap docs</a>
+        </li>
+
+      </ul>
+
+      {/* END LINUX */}
+
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+
+      <div className="max-w-180 text-[13px] ml-[1.6825%]">
         ClickHouse is a high-performance, column-oriented, distributed SQL database <br></br>management system (DBMS) for online analytical processing (OLAP). It is <br></br>written primarily in C++ and is maintained by ClickHouse, Inc. with the <br></br>database engine code hosted on GitHub.
       </div>
 
@@ -291,26 +327,10 @@ export default function Contributions() {
 
       {/* END CLICKHOUSE */}
 
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-
-      <div className="font-bold text-[20px] ml-[1.6825%]">What is this?</div>
 
       <br></br>
-
-      <div className="max-w-180 mb-[15px] text-[15px] ml-[1.6825%]">
-        This is an accumulation of contributions I have made to LLVM, GCC, and ClickHouse. I contribute to these projects because they are each large and actively developed C++ projects related to compiler toolchains (LLVM and GCC) and databse management systems (ClickHouse), which are particularly interesting to me as a student.
-      </div>
-
-      <div className="max-w-180 text-[15px] ml-[1.6825%]">
-	Each bullet is a link to a PR or a patch I wrote, and resolved bugs and issues are also listed.
-      </div>
-
+      <br></br>
+      <br></br>
       <br></br>
       <br></br>
       <br></br>
