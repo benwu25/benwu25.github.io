@@ -18,7 +18,7 @@ export default function App() {
           <div>
 
             <div>
-              <b className="text-[30px]">Ben Wu</b>
+              <b className="text-[30px]">Benjamin Wu</b>
             </div>
 
             <div>
@@ -98,7 +98,7 @@ export default function App() {
         <div>
 
           <div>
-            <b className="text-[40px]">Ben Wu</b>
+            <b className="text-[40px]">Benjamin Wu</b>
           </div>
 
           <div>
