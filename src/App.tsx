@@ -325,7 +325,7 @@ export default function App() {
         <ul className="list-disc ml-[4.8%]">
 
           <li>
-            <a className="underline" href="https://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git/commit/?id=7c7fe554f40a">docs: fix grammatical error in iomap docs</a>
+            <a className="underline" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=7c7fe554f40adac2a7f8d9b6d5886ca332edd496">docs: fix grammatical error in iomap docs</a>
           </li>
 
         </ul>
