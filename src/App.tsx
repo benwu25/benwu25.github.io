@@ -232,6 +232,10 @@ export default function App() {
             <a className="underline" href="https://github.com/llvm/llvm-project/pull/228989">[NFC][IR] Use getDataLayout member function for Instruction and BasicBlock</a>
           </li>
 
+          <li>
+            <a className="underline" href="https://github.com/llvm/llvm-project/pull/228989">[NFC][Target] Simplify checking target arch</a>
+          </li>
+
         </ul>
 
         {/* END LLVM */}
