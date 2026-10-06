@@ -136,7 +136,7 @@ export default function App() {
           <br></br>
 
           <div className="max-w-180 text-3x1 ml-[0.85%]">
-            Outside of school, I enjoy building, reading, using, and contributing to open source software. I am particularly interested in compiler toolchains, and I am spending a lot of my time learning and hacking inside of the LLVM project and the GNU Compiler Collection.
+            I enjoy building, reading, using, and contributing to open source software. I am interested in working with compiler toolchains like LLVM project and the GNU Compiler Collection.
           </div>
 
           <br></br>
@@ -165,14 +165,8 @@ export default function App() {
 
       <div>
 
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-
         <div className="ml-[1.6825%]">
-          <b className="text-[40px]">Open Source Work</b>
+          <b className="text-[40px]">Open Source</b>
         </div>
 
         <br></br>
