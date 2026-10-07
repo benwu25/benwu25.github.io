@@ -230,6 +230,10 @@ export default function App() {
             <a className="underline" href="https://github.com/llvm/llvm-project/pull/229312">[NFC][Target] Simplify checking target arch</a>
           </li>
 
+          <li>
+            <a className="underline" href="https://github.com/llvm/llvm-project/pull/229643">[NFC][X86] Simplify target assert</a>
+          </li>
+
         </ul>
 
         {/* END LLVM */}
