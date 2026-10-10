@@ -234,6 +234,14 @@ export default function App() {
             <a className="underline" href="https://github.com/llvm/llvm-project/pull/229643">[NFC][X86] Simplify target assert</a>
           </li>
 
+          <li>
+            <a className="underline" href="https://github.com/llvm/llvm-project/pull/230002">[Target][NFC] Use SmallPtrSet instead of SmallSet for pointers</a>
+          </li>
+
+          <li>
+            <a className="underline" href="https://github.com/llvm/llvm-project/pull/230333">[mlir][NFC] Use DefaultUnreachable in TypeSwitch</a>
+          </li>
+
         </ul>
 
         {/* END LLVM */}
