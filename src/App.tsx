@@ -242,6 +242,11 @@ export default function App() {
             <a className="underline" href="https://github.com/llvm/llvm-project/pull/230333">[mlir][NFC] Use DefaultUnreachable in TypeSwitch</a>
           </li>
 
+          <li>
+            <a className="underline" href="https://github.com/llvm/llvm-project/pull/230717">[mlir][NFC] Simplify using OpRewritePattern::OpRewritePattern to use Base alias</a>
+          </li>
+
+
         </ul>
 
         {/* END LLVM */}
