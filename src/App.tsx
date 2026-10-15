@@ -246,6 +246,10 @@ export default function App() {
             <a className="underline" href="https://github.com/llvm/llvm-project/pull/230717">[mlir][NFC] Simplify using OpRewritePattern::OpRewritePattern to use Base alias</a>
           </li>
 
+          <li>
+            <a className="underline" href="https://github.com/llvm/llvm-project/pull/232056">[mlir][NFC] Simplify OpInterfaceRewritePattern using-decl to use alias</a>
+          </li>
+
 
         </ul>
 
