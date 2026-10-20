@@ -250,6 +250,15 @@ export default function App() {
             <a className="underline" href="https://github.com/llvm/llvm-project/pull/232056">[mlir][NFC] Simplify OpInterfaceRewritePattern using-decl to use alias</a>
           </li>
 
+          <li>
+            <a className="underline" href="https://github.com/llvm/llvm-project/pull/232639">[Target][NFC] Pass SMLoc by value instead of const reference</a>
+          </li>
+
+          <li>
+            <a className="underline" href="https://github.com/llvm/llvm-project/pull/233586">[mlir][NFC] Simplify rewrite/conversion using-decls to use Base alias</a>
+          </li>
+
+
 
         </ul>
 
