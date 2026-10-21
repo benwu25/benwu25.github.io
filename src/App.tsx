@@ -258,6 +258,9 @@ export default function App() {
             <a className="underline" href="https://github.com/llvm/llvm-project/pull/233586">[mlir][NFC] Simplify rewrite/conversion using-decls to use Base alias</a>
           </li>
 
+          <li>
+            <a className="underline" href="https://github.com/llvm/llvm-project/pull/233133">[SPIRV][NFC] Clean up unnecessary code</a>
+          </li>
 
 
         </ul>
