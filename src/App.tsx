@@ -329,6 +329,10 @@ export default function App() {
             </li>
           </ul>
 
+          <li>
+            <a className="underline" href="https://forge.sourceware.org/gcc/gcc-archive/commit/ae723691c3ec65d1047c42f85d3b26599efa06b5">store-merging: remove unneeded cast to int</a>
+          </li>
+
         </ul>
 
         {/* END GCC */}
