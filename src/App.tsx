@@ -114,7 +114,11 @@ export default function App() {
           </div>
 
           <div>
-            <a className="underline ml-[0.2%]" href="https://github.com/benwu25">GitHub</a>
+            <a className="underline ml-[0.2%]" href="https://github.com/benwu25">GitHub (personal)</a>
+          </div>
+
+          <div>
+            <a className="underline ml-[0.2%]" href="https://github.com/benjaminwuTT">GitHub (current internship, Tenstorrent)</a>
           </div>
 
           <div>
