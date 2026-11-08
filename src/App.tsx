@@ -266,6 +266,10 @@ export default function App() {
             <a className="underline" href="https://github.com/llvm/llvm-project/pull/233133">[SPIRV][NFC] Clean up unnecessary code</a>
           </li>
 
+          <li>
+            <a className="underline" href="https://github.com/llvm/llvm-project/pull/239934">[Target][NFC] Remove unneeded typename in type aliases</a>
+          </li>
+
 
         </ul>
 
