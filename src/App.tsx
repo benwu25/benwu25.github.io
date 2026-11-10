@@ -270,6 +270,10 @@ export default function App() {
             <a className="underline" href="https://github.com/llvm/llvm-project/pull/239934">[Target][NFC] Remove unneeded typename in type aliases</a>
           </li>
 
+          <li>
+            <a className="underline" href="https://github.com/llvm/llvm-project/pull/240221">[SPIRV][NFC] Simplify checkExtensions control flow</a>
+          </li>
+
 
         </ul>
 
